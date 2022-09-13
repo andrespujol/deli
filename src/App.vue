@@ -1,16 +1,28 @@
 <template>
   <div id="app">
-    <HomeView msg="Delicias"/>
+    <NavBar />
+    <HomeView title="Delicias"/>
+    <ProductCard />
+    <ContactUs />
+    <FooterApp />
   </div>
 </template>
 
 <script>
 import HomeView from './components/HomeView.vue';
+import NavBar from './components/NavBar.vue';
+import FooterApp from './components/FooterApp.vue';
+import ContactUs from './components/ContactUs.vue';
+import ProductCard from './components/ProductCard.vue';
 
 export default {
   name: 'App',
   components: {
     HomeView,
+    NavBar,
+    FooterApp,
+    ContactUs,
+    ProductCard,
   },
 };
 </script>
