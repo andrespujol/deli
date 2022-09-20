@@ -5,6 +5,8 @@
     <ProductCard />
     <ContactUs />
     <FooterApp />
+    <LoginForm />
+    <RegisterForm />
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import NavBar from './components/NavBar.vue';
 import FooterApp from './components/FooterApp.vue';
 import ContactUs from './components/ContactUs.vue';
 import ProductCard from './components/ProductCard.vue';
+import LoginForm from './components/LoginForm.vue';
+import RegisterForm from './components/RegisterForm.vue';
 
 export default {
   name: 'App',
@@ -23,6 +27,8 @@ export default {
     FooterApp,
     ContactUs,
     ProductCard,
+    LoginForm,
+    RegisterForm,
   },
 };
 </script>

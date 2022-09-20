@@ -3,9 +3,11 @@
         <h1>Deli</h1>
         <nav>
             <ul>
-                <li>Home</li>
+                <li><a href="">Home</a></li>
                 <li>Productos</li>
                 <li>ContactUs</li>
+                <li>Registro</li>
+                <li>Iniciar sesión</li>
             </ul>
         </nav>
     </header>
