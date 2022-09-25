@@ -43,33 +43,33 @@
 </template>
 <script>
 export default {
-  name: 'LoginForm',
-  data() {
-    return {
-      form: {
-        email: '',
-        password: '',
-      },
-      show: true,
-    };
-  },
-  methods: {
-    onSubmit(event) {
-      event.preventDefault();
-      this.$alert('Bienvenid@');
+    name: 'LoginForm',
+    data() {
+        return {
+            form: {
+                email: '',
+                password: '',
+            },
+            show: true,
+        };
     },
-    onReset(event) {
-      event.preventDefault();
-      // Reset our form values
-      this.form.email = '';
-      this.form.password = '';
-      // Trick to reset/clear native browser form validation state
-      this.show = false;
-      this.$nextTick(() => {
-        this.show = true;
-      });
+    methods: {
+        onSubmit(event) {
+            event.preventDefault();
+            this.$alert('Bienvenid@');
+        },
+        onReset(event) {
+            event.preventDefault();
+            // Reset our form values
+            this.form.email = '';
+            this.form.password = '';
+            // Trick to reset/clear native browser form validation state
+            this.show = false;
+            this.$nextTick(() => {
+                this.show = true;
+            });
+        },
     },
-  },
 };
 </script>
 <style scoped>

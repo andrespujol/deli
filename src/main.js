@@ -12,5 +12,5 @@ Vue.use(BootstrapVue);
 Vue.use(VueSimpleAlert);
 
 new Vue({
-  render: (h) => h(App),
+    render: (h) => h(App),
 }).$mount('#app');

@@ -7,10 +7,10 @@
 
 <script>
 export default {
-  name: 'HomeView',
-  props: {
-    title: String,
-  },
+    name: 'HomeView',
+    props: {
+        title: String,
+    },
 };
 </script>
 

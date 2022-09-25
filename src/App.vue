@@ -20,16 +20,16 @@ import LoginForm from './components/LoginForm.vue';
 import RegisterForm from './components/RegisterForm.vue';
 
 export default {
-  name: 'App',
-  components: {
-    HomeView,
-    NavBar,
-    FooterApp,
-    ContactUs,
-    ProductCard,
-    LoginForm,
-    RegisterForm,
-  },
+    name: 'App',
+    components: {
+        HomeView,
+        NavBar,
+        FooterApp,
+        ContactUs,
+        ProductCard,
+        LoginForm,
+        RegisterForm,
+    },
 };
 </script>
 
