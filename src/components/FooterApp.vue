@@ -3,9 +3,9 @@
         <h1>Deli</h1>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Productos</li>
-                <li>ContactUs</li>
+                <router-link to='/' class="linksMenu">Home</router-link>
+                <router-link to='/Productos' class="linksMenu">Productos</router-link>
+                <router-link to='/Contacto' class="linksMenu">Contacto</router-link>
             </ul>
         </nav>
     </footer>

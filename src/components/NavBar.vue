@@ -3,11 +3,11 @@
         <h1>Deli</h1>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li>Productos</li>
-                <li>ContactUs</li>
-                <li>Registro</li>
-                <li>Iniciar sesión</li>
+                <router-link to='/' class="linksMenu">Home</router-link>
+                <router-link to='/Productos' class="linksMenu">Productos</router-link>
+                <router-link to='/Contacto' class="linksMenu">Contacto</router-link>
+                <router-link to='/Registro' class="linksMenu">Registro</router-link>
+                <router-link to='/Carrito' class="linksMenu">Carrito</router-link>
             </ul>
         </nav>
     </header>
